@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Jitesh Bhatia",
+    "Mathematics": 5,
+    "Science": 4,
+    "English": 3
+  },
+  {
+    "id": 2,
+    "name": "Ashu",
+    "Mathematics": 5,
+    "Science": 2,
+    "English": 5
+  }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Admin Login</h1>
+<a href="index.html" style="float:right" id="link1">Submit Feedback</a>
+  <form id="loginForm">
+    <label>Username:</label>
+    <input type="text" id="username" required>
+
+    <label>Password:</label>
+    <input type="password" id="password" required>
+
+    <button type="submit">Login</button>
+  </form>
+
+  <div id="dashboard" style="display:none;">
+    <h2>Feedback Summary</h2>
+    <table border="1" id="summaryTable">
+      <thead>
+        <tr>
+          <th>Subject</th>
+          <th>Average Rating</th>
+          <th>Feedback Count</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+<h3 style="text-align:center"><a href="admin.html">Logout</a></h3>
+  </div>
+<br>
+  
+  <script src="admin.js"></script>
+</body>
+</html>

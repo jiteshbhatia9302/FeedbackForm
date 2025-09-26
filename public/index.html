@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Student Feedback Form</h1>
+  <a href="admin.html" style="float:right">Admin Login</a>
+  <form id="feedbackForm">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" required>
+<div class="range-container">
+    <label for="math">Mathematics:</label>
+    <input type="range" id="math" min="1" max="5" value="3"><br>
+    <span id="mathValue">3</span>
+</div>
+<div class="range-container">
+    <label for="science">Science:</label>
+    <input type="range" id="science" min="1" max="5" value="3"><br>
+    <span id="scienceValue">3</span>
+</div>
+<div class="range-container">
+    <label for="english">English:</label>
+    <input type="range" id="english" min="1" max="5" value="3"><br>
+    <span id="englishValue">3</span>
+</div>
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
